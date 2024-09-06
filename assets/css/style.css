@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1220px;
+}
+
+.header {
+    background-color: #163A24;
+    height: 98px;
+}
+
+.btn {
+    color: #fff;
+    background-color: #198C36;
+    padding: 15px 25px;
+    border-radius: 160px;
+    cursor: pointer;
+}
+
+.header__info {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header__buttons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+
+.first-section {
+    background-color: #163A24;
+    height: calc(100vh - 98px);
+    background: url("../img/base.webp") no-repeat right center /cover;
+}
+
+.section__text-block {
+    color: #fff;
+    max-width: 491px;
+    padding-top: 120px;
+}
+
+.section__title {
+    font-family: 'Recoleta', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.section__subtitle {
+    padding-top: 18px;
+    font-size: 18px;
+}
